@@ -1,0 +1,124 @@
+.fondo
+{
+  position:fixed;
+  display: block;
+  height: 101%;
+  width: 100%;
+  right: 0%;
+  top: -1%;
+}
+
+.pagina1
+{
+	position: absolute;
+	top: 45%;
+	left: 25%;
+	font-style: oblique;
+	background-color: white;
+	text-decoration: none;
+	padding: 40px;
+	border: 1px solid #29286D;
+	border-radius: .25rem;
+	color: #29286D;
+	transition: color .15s ease-in-out,
+	background-color .15s ease-in-out;
+	font-size: 25px;
+}
+
+.pagina1:hover, .pagina1:active, .pagina1:focus {
+	color: white;
+	background-color: #29286D;
+}
+
+.pagina2
+{
+	position: absolute;
+	top: 45%;
+	left: 43.2%;
+	font-style: oblique;
+	background-color: white;
+	text-decoration: none;
+	padding: 40px;
+	border: 1px solid #29286D;
+	border-radius: .25rem;
+	color: #29286D;
+	transition: color .15s ease-in-out,
+	background-color .15s ease-in-out;
+	font-size: 25px;
+}
+
+.pagina2:hover, .pagina2:active, .pagina2:focus {
+	color: white;
+	background-color: #29286D;
+}
+
+.pagina3
+{
+	position: absolute;
+	top: 45%;
+	left: 61%;
+	font-style: oblique;
+	background-color: white;
+	text-decoration: none;
+	padding: 40px;
+	border: 1px solid #29286D;
+	border-radius: .25rem;
+	color: #29286D;
+	transition: color .15s ease-in-out,
+	background-color .15s ease-in-out;
+	font-size: 25px;
+}
+
+.pagina3:hover, .pagina3:active, .pagina3:focus {
+	color: white;
+	background-color: #29286D;
+}
+
+.divtitulo
+{
+	position: absolute;
+	background-color: black;
+	opacity: 50%;
+	height: 30%;
+    width: 51%;
+    top: 8%;
+    left: 24%;
+    border-radius: 8px;
+
+    -webkit-box-shadow: 8px 8px 11px #999;       /* -SOMBRA- */
+    -moz-box-shadow: 2px 2px 5px #999;
+	z-index: 100%;
+}
+
+.linea1
+{
+	position: absolute;
+	width: 10%;
+	top: 8.5%;
+	left: 64.7%;
+	z-index: 100;
+}
+
+.linea2
+{
+	position: absolute;
+	width: 10%;
+	top: 18.7%;
+	left: 24.3%;
+	z-index: 100;
+}
+.regresar
+{
+	position: absolute;
+	width: 19%;
+	top: -6.8%;
+	left: -3.15%;
+}
+
+.titulo
+{
+	position: absolute;
+	width: 50%;
+	top: 15%;
+	left: 25%;
+}
